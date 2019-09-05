@@ -97,17 +97,26 @@ width: auto;
 }
 
 @media screen and (max-width: 768px) {
-body{
+.wrapper section nav {
 background-color: pink;  
 float:none; 
-text-align: center;
+text-align: left; 
 } 
+h1 { text-align: center;
+
+
+}
+p {
+    text-align: inherit;
+}
 } 
-//*
+
+
 @media screen and(max-width: 640px) { 
-body{ background-color: yellow;
+.wrapper section nav{ background-color: yellow;
 float:none; 
-text-align: center;}
+text-align: center;
+}
 
 
 }
